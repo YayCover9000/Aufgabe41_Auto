@@ -1,1 +1,8 @@
-# Aufgabe41_Auto
+#### Ziel ist es, dass Sie Klassen und Objekte kennen lernen.
+###### • Modellieren Sie ein Auto durch eine Klasse.
+###### • Beachten Sie die wesentlichen Eigenschaften von Autos aus Sicht des Fahrens. D.h. ein Auto hat mindestens eine Maximalgeschwindigkeit, einen Tank (inkl. der aktuellen Tankfüllung), einen Verbrauch, einen Kilometerstand, ein Nummernschild (bzw. eine Fahrzeuggestellnummer).
+###### • Sie sollten mit dem Auto virtuell fahren können, indem sie die Methode fahren(int geschwindigkeit, int minuten)
+###### • aufrufen, wobei sie die zu fahrende Geschwindigkeit und die zeitliche Länge der Fahrt angeben. Allerdings können Sie nur solange mit dem Auto fahren, bis der Tank des Autos leer ist. Selbstverständlich können Sie mit der Methode tanken(float spritMenge) Ihr Auto wieder fahrbereit bekommen. Achten Sie bitte der Umwelt zuliebe darauf, dass Ihr Tank nicht überlaufen sollte.
+###### • Um den aktuellen Stand des Autos überprüfen zu können, schreiben Sie am besten eine Methode ausgeben(), die alle wesentlichen Werte formatiert auf der Konsole ausgibt.
+###### • Verwenden Sie unterschiedliche Autos für Ihre Probefahrten, die Sie wieder in einer Testdriver-Klasse definieren. Machen Sie dabei auch einmal einen Zwischenstop zum Tanken, um eine längere Strecke fahren zu können und rufen Sie zur Überprüfung die ausgeben()-Methode auf.
+###### • Definieren Sie ein Rennen zwischen zwei Autos in der Testdriver-Klasse.
